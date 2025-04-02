@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia em HTML5 </title>
+</head>
+<body >
+    <h1>Imagem dinámica</h1>
+    <p>Tente abrer este site em vários dispositivos diferentes ou simplesmete aumentar e diminuir o tamanho do seu navegador</p>
+     
+    <picture>
+        <source media="(max-width: 750px )" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/foto-m.png " type="image/png">
+        <img src="Imagens/foto-g.png" alt="imagem dinâmica">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos aprender a reproduzir áudio em HTML5</p>
+    <audio src= "midia/amanda_wanessa_ta_chorando_por_que__letra_mp3_10053.mp3"  controls ></audio> <br>
+    <audio src="midia/Eu e você .mp3" controls ></audio>  <br>
+    <audio src="midia/yahweh_se_manifestara_marcos_freire_julliany_souza_e_leo_brandao_live_aac_72473.m4a"  controls ></audio> <!--Etá forma é mais limitada. é mais pra mp3 ,wav ,ogg-->
+
+    <h1>Outra maneira de adicionar som no site</h1>
+
+    <audio preload="auto" controls >
+    <source src="midia/amanda_wanessa_ta_chorando_por_que__letra_mp3_10053.mp3" type="audio/mpeg"><br>
+    <source src="midia/Eu e você .mp3"  type="audio/mpeg"> <br>
+    <source src="midia/glorious_elohe_elohim_aac_64365.m4a" type="audio/mp4">
+    <p>Infelizmente o teu navegador nao conseguiu baixar o audio. <a href="midia/amanda_wanessa_ta_chorando_por_que__letra_mp3_10053.mp3"  download="amanda_wanessa_ta_chorando_por_que__letra_mp3_10053.mp3" type="audio/mpeg" >Clica aqui para baixar o arquivo</a></p>
+    </audio> 
+     
+    
+</body>
+</html>

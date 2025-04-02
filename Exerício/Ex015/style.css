@@ -1,0 +1,18 @@
+
+
+        body{
+            background-color: rgb(198, 216, 164);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+        }
+        h1{
+            color: blue;
+            background-color:goldenrod;
+        }
+        h2{
+            color: brown;
+        }
+        p{
+            text-align: justify;
+        }
+    
