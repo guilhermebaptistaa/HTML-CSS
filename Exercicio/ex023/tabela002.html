@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Tabelas</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width:500px ;
+            border-collapse: collapse; 
+            position: relative;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        thead>tr>th{
+            position: sticky; 
+            top: -2px;
+            background-color: gray;
+        }
+
+        tbody >tr:nth-child(2n){
+            background-color: lightgray;
+        }
+        tbody>tr:nth-child(2n-1){
+            background-color: aqua;
+        }
+
+        thead, tfoot{
+            background-color: gray;
+            color: white;
+        }
+        td.num{
+            text-align: right;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>uso de Tabelas grandes</h1>
+    <!--ANATOMIA PARA TABELAS GRANDES
+    THEAD
+        TR TD,TH
+     TBODY
+        TR, TD, TH
+    TFOOTER
+        TR, TD, TH   
+    -->
+        
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="max-width: 100px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+               <td>São Paulo</td> 
+
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas gerais</td>
+                <td class="num">21168791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">1726493</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">384786</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11.264.67</td>
+            </tr>
+            <tr>
+                <td>Rio grande do sul</td>
+                <td class="num">1113.4576.7</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9.876.4</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num"><strong>212.147.145</strong></td>
+        </tfoot>
+
+
+    </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi at eaque vero illum error nobis fugiat neque alias suscipit animi, tenetur voluptatum quam numquam voluptas dolorem, et ducimus! Odit, veritatis.</p>
+</body>
+</html>
