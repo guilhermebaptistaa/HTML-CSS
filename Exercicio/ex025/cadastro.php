@@ -1,0 +1,1 @@
+Agora é a hora de mudar oa forma de pensar
